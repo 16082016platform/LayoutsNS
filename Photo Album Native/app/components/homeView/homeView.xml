@@ -1,3 +1,6 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd">
-	<!-- UI Declaration -->
+<Page>
+  <StackLayout>
+    <Label text="Hello, this is Main!" />
+    <Button text="Go to Page1" tap="buttonForwardTap" />
+  </StackLayout>
 </Page>
